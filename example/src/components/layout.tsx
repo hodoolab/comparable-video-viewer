@@ -21,6 +21,7 @@ const Layout = (props: any) => {
           // display: "flex",
           marginTop: `1.45rem`,
           background: '#FFF8F8',
+          height: '100%'
           // flexShrink: 0,
           // flex: "0 0 auto",
         }}

@@ -15,7 +15,7 @@ const App = () => {
       <Route exact path={Routes.BASIC} component={Basic} />
       <Route exact path={Routes.VERTICAL_RESIZE} component={VerticalResize} />
       <Route exact path={Routes.SET_BOUND} component={SetBound} />
-      <Route exact path={Routes.LATE_PAGE} component={Lazy} />
+      <Route exact path={Routes.LAZY} component={Lazy} />
     </Router>
   );
 };

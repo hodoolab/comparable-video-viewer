@@ -90,7 +90,7 @@ const getTabValueByPathName = (pathName: string) => {
       return 2;
     case Routes.SET_BOUND:
       return 3;
-    case Routes.LATE_PAGE:
+    case Routes.LAZY:
       return 4;
   }
   return -1;
@@ -136,9 +136,9 @@ const Menu = props => {
         />
         <CustomTab
           className={classes.tab}
-          label="Late"
+          label="Lazy"
           onClick={() => {
-            history.push(Routes.LATE_PAGE);
+            history.push(Routes.LAZY);
           }}
           // {...a11yProps(3)}
         />
