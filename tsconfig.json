@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    // "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    // "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    "strictPropertyInitialization": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*", "node_modules/*"]
+    },
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "types": ["react", "resize-observer-browser", "jest", "offscreencanvas"],
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": ["src", "types"],
+  "exclude": ["node_modules", "lib", "dist", "demo", "example"]
+}
